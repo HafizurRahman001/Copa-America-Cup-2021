@@ -1,0 +1,192 @@
+/* ============Google font ================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* common styles or utilities */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.container {
+    width: 1050px;
+    margin-bottom: 165px;
+}
+
+/* ================banner section=============== */
+.banner{}
+.banner:hover .banner-image{
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+    transform-origin: center;
+}
+.banner-details a:hover{
+    background-color: darkorange;
+}
+.banner-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #2D25A0;
+    padding: 16px 0px 86px 0;
+}
+.banner-details{
+    padding-left: 156px;
+}
+.banner-details h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 35px;
+}
+.banner-details a{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+
+}
+.fas{
+    padding: 0 8px;
+}
+.banner-image{}
+.banner-image img{
+    width: 556.01px;
+    height: 438px;
+}
+
+
+/* ===============Players Details and Image section=========== */
+main{
+    display: flex;
+    justify-content: center;
+}
+.players{
+    margin-top: 70px;
+}
+.players-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+.player{
+    width: 300px;
+    height: 426px;
+    border: 1px solid;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-image{}
+.player-image img{
+    width: 300px;
+    height: 256px;
+}
+.player-details{}
+.player-details h1 {
+    color: #18191F;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 15px 0;
+}
+.player-details p{
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================Responsive with media query=========== */
+
+
+/* ==============For Mobile Device============== */
+
+@media only screen and (max-width:688px) {
+    
+    .banner{
+        width: 100%;
+        background-color: #2D25A0;
+    }
+    .banner-area{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .banner-details{
+        padding: 0 16px;
+    }
+    .banner-details h1{
+        font-size: 36px;
+    }
+    .banner-image img {
+        width: 353px;
+        height: 268.17px;
+        padding: 0 16px;
+        margin-top: 50px;
+    }
+
+
+.players-list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+
+
+
+
+    
+}
+
+
+/* ==================For Tablet Device======================= */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+   
+
+.banner{
+    width: 100%;
+}
+.banner-image img{
+    width:100%;
+}
+.banner-details{
+    padding-left:61px
+}
+.banner-details a{
+    font-size: 35px;
+}
+
+.players-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+
+
+
+
+
+}
