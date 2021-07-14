@@ -61,7 +61,9 @@ body{
 /* ===============Players Details and Image section=========== */
 main{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
 }
 .players{
     margin-top: 70px;
@@ -97,6 +99,63 @@ main{
 }
 
 
+
+/* ===============Learn more section=============== 
+*/
+
+.learn-more-section{}
+.learn-more-section h1 {
+    background-image: linear-gradient(to right, #5F358E, #672D87);
+    padding: 15px 0px;
+    color: white;
+    text-align: center;
+    
+}
+.learn-more-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+}
+.learn-more {
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+}
+.learn-more-image{}
+.learn-more-image img{
+    width: 100%;
+}
+.learn-more-details{}
+.learn-more-details h2{
+    text-align: center;
+    margin: 0;
+}
+.learn-more-details p{
+    color: gray;
+}
+.learn-more-details a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#64348D, #2B1C6D);
+    padding: 5px 15px;
+    margin-left: 46px;
+}
+.fas{
+    color: white;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
 
 
 
