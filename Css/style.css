@@ -185,6 +185,9 @@ main{
 .fab {
     font-size: 22px;
     margin: 0px 14px;
+    background: rgba(128, 128, 128, 0.267);
+    padding: 10px;
+    border-radius: 55%;
 }
 .footer-area p{
     font-size: 18px;
