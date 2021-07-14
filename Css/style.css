@@ -8,7 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background: #FFFFFF;
 }
 .container {
     width: 1050px;
@@ -47,7 +47,6 @@ body{
     font-size: 16px;
     color: white;
     text-decoration: none;
-
 }
 .fas{
     padding: 0 8px;
@@ -76,8 +75,8 @@ main{
 .player{
     width: 300px;
     height: 426px;
-    border: 1px solid;
     padding: 15px;
+    background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .player-image{}
@@ -103,6 +102,34 @@ main{
 
 
 
+/* =================footer section============= */
+.footer-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 63px;
+}
+.footer-area{
+    width: 483.87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-image{}
+.footer-image img{
+    width: 100%;
+}
+.footer-icon{}
+.footer-icon a{
+    color: rgb(107, 102, 102);
+}
+.fab {
+    font-size: 22px;
+    margin: 0px 14px;
+}
+.footer-area p{
+    font-size: 18px;
+}
 
 
 
@@ -147,14 +174,19 @@ main{
     }
 
 
-.players-list{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 100%;
-}
+    .players-list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
 
-
-
+    .footer-area{
+        width: 100%;
+        margin-top: -77px;
+    }
+    .footer-image img {
+        width: 95%;
+    }
 
     
 }
@@ -165,28 +197,23 @@ main{
 @media only screen and (min-width: 688px) and (max-width: 992px) {
    
 
-.banner{
-    width: 100%;
-}
-.banner-image img{
-    width:100%;
-}
-.banner-details{
-    padding-left:61px
-}
-.banner-details a{
-    font-size: 35px;
-}
+    .banner{
+        width: 100%;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+    .banner-details{
+        padding-left: 61px;
+    }
+    .banner-details a{
+        font-size: 35px;
+    }
 
-.players-list{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-}
-
-
-
-
-
+    .players-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
 
 }
