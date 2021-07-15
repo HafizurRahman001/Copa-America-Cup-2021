@@ -236,10 +236,11 @@ main{
     }
 
 
-    .players-list{
+    .players-list {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
+        margin-bottom: 60px;
     }
 
     .footer-area{
@@ -250,6 +251,32 @@ main{
         width: 95%;
     }
 
+    .learn-more-area{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .learn-more, .learn-more-image img{
+        width: 100%;
+    }
+    .learn-more {
+        padding: 0;
+        margin-bottom: 28px;
+    }
+    .learn-more-section{
+        width: 100%;
+    }
+    .learn-more-section h1{
+       margin: 0;
+    }
+    .learn-more-details{
+        margin-bottom: 20px;
+    }
+    .learn-more-details p {
+        padding: 0 32px;
+    }
+    .learn-more-details a {
+        margin-left: 142px;
+    }
     
 }
 
@@ -277,5 +304,48 @@ main{
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
     }
+    .learn-more-section{
+        width: 100%;
+
+    }
+    .learn-more-section h1 {
+        font-size: 40px;
+    }
+
+    .learn-more-area{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        row-gap: 35px;
+    }
+    .learn-more {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .learn-more-image{
+        width: 100%;
+    }
+    .learn-more-image img {
+        width: 251px;
+        padding-left: 63px;
+    }
+    .learn-more-details h2 {
+        font-size: 35px;
+    }
+    .learn-more-details {
+        margin-bottom: 31px;
+    }
+    .learn-more-details p {
+        padding: 0 22px;
+        font-size: 20px;
+    }
+    .learn-more-details a {
+        font-size: 22px;
+        margin-left: 94px;
+    }
+    .banner,.players, .footer-section{
+        display: none;
+    }
+
 
 }
