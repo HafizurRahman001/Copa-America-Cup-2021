@@ -1,4 +1,5 @@
 /* ============Google font ================= */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
@@ -16,7 +17,7 @@ body{
 }
 
 /* ================banner section=============== */
-.banner{}
+
 .banner:hover .banner-image{
     transform: rotate(360deg);
     transition: transform 0.5s ease-in-out;
@@ -48,10 +49,11 @@ body{
     color: white;
     text-decoration: none;
 }
+
 .fas{
     padding: 0 8px;
 }
-.banner-image{}
+
 .banner-image img{
     width: 556.01px;
     height: 438px;
@@ -59,9 +61,9 @@ body{
 
 
 /* ===============Players Details and Image section=========== */
+
 main{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -73,6 +75,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 27px;
     grid-column-gap: 30px;
+    margin-bottom: 69px;
 }
 .player{
     width: 300px;
@@ -81,12 +84,10 @@ main{
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
-.player-image{}
 .player-image img{
     width: 300px;
     height: 256px;
 }
-.player-details{}
 .player-details h1 {
     color: #18191F;
     font-weight: bold;
@@ -100,16 +101,14 @@ main{
 
 
 
-/* ===============Learn more section=============== 
-*/
+/* ===============Learn more section=============== */
 
-.learn-more-section{}
+
 .learn-more-section h1 {
     background-image: linear-gradient(to right, #5F358E, #672D87);
     padding: 15px 0px;
     color: white;
     text-align: center;
-    
 }
 .learn-more-area {
     display: grid;
@@ -117,15 +116,13 @@ main{
     column-gap: 10px;
 }
 .learn-more {
-    width: 200px;
+    width: 212px;
     padding: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
 }
-.learn-more-image{}
 .learn-more-image img{
     width: 100%;
 }
-.learn-more-details{}
 .learn-more-details h2{
     text-align: center;
     margin: 0;
@@ -144,24 +141,12 @@ main{
 .fas{
     color: white;
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
-
-
 
 
 
 /* =================footer section============= */
+
+
 .footer-section{
     display: flex;
     justify-content: center;
@@ -174,11 +159,9 @@ main{
     justify-content: center;
     align-items: center;
 }
-.footer-image{}
 .footer-image img{
     width: 100%;
 }
-.footer-icon{}
 .footer-icon a{
     color: rgb(107, 102, 102);
 }
@@ -194,13 +177,33 @@ main{
 }
 
 
+/* ====================Our Sponsors Section====================== */
 
 
-
-
-
-
-
+.our-sponsors {
+    margin-top: -78px;
+    margin-bottom: 75px;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.445);
+}
+.our-sponsors h1 {
+    margin-left: 31px;
+}
+.sponsor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 21px 0px;
+}
+.sponsor-image {
+    width: 200px;
+    border: 1px solid;
+    box-shadow: 0px 0px 9px gray;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+.sponsor-image img {
+    width: 100%;
+}
 
 
 
@@ -210,7 +213,9 @@ main{
 /* ================Responsive with media query=========== */
 
 
+
 /* ==============For Mobile Device============== */
+
 
 @media only screen and (max-width:688px) {
     
@@ -236,6 +241,7 @@ main{
     }
 
 
+
     .players-list {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -243,13 +249,15 @@ main{
         margin-bottom: 60px;
     }
 
-    .footer-area{
+    .footer-area {
         width: 100%;
-        margin-top: -77px;
+        margin-top: -36px;
     }
     .footer-image img {
         width: 95%;
     }
+
+
 
     .learn-more-area{
         grid-template-columns: repeat(1, 1fr);
@@ -277,11 +285,28 @@ main{
     .learn-more-details a {
         margin-left: 142px;
     }
-    
+
+
+    .sponsor{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container{
+        width: 100%;
+    }
+    .sponsor-image {
+        margin-bottom: 25px;
+        width: 90%;
+    }
+    .our-sponsors h1 {
+        text-align: center;
+    }
 }
 
 
+
 /* ==================For Tablet Device======================= */
+
+
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
    
@@ -299,11 +324,16 @@ main{
         font-size: 35px;
     }
 
+
+
     .players-list{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
     }
+
+
+
     .learn-more-section{
         width: 100%;
 
@@ -344,5 +374,21 @@ main{
         margin-left: 94px;
     }
 
+
+
+    .sponsor{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container{
+        width: 100%;
+    }
+    .sponsor-image {
+        width: 90%;
+        margin-bottom: 29px;
+    }
+    .our-sponsors h1 {
+        font-size: 35px;
+        text-align: center;
+    }
 
 }
