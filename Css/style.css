@@ -343,9 +343,6 @@ main{
         font-size: 22px;
         margin-left: 94px;
     }
-    .banner,.players, .footer-section{
-        display: none;
-    }
 
 
 }
