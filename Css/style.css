@@ -138,6 +138,14 @@ main{
     padding: 5px 15px;
     margin-left: 46px;
 }
+.learn-more-details a:hover{
+    background-image: linear-gradient(to right, rgba(255, 166, 0, 0.815), darkorange);
+    color: black;
+}
+.learn-more-details a:hover .fas{
+    color: black;
+}
+
 .fas{
     color: white;
 }
