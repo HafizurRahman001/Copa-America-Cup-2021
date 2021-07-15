@@ -267,9 +267,10 @@ main{
     }
 
 
-    .learn-more-area{
+    .learn-more-area {
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
+        margin-bottom: -133px;
     }
     .learn-more, .learn-more-image img{
         width: 100%;
@@ -295,12 +296,15 @@ main{
     }
 
 
+    .our-sponsors{
+
+    }
     .sponsor{
         grid-template-columns: repeat(1, 1fr);
     }
     .container {
         width: 100%;
-        margin-top: -58px;
+        margin-top: -12px;
     }
     .sponsor-image {
         margin-bottom: 25px;
