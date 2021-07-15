@@ -108,6 +108,7 @@ main{
     background-image: linear-gradient(to right, #5F358E, #672D87);
     padding: 15px 0px;
     color: white;
+    letter-spacing: 2px;
     text-align: center;
 }
 .learn-more-area {
@@ -227,7 +228,7 @@ main{
 
 @media only screen and (max-width:688px) {
     
-    .banner{
+    .banner {
         width: 100%;
         background-color: #2D25A0;
     }
@@ -242,12 +243,11 @@ main{
         font-size: 36px;
     }
     .banner-image img {
-        width: 353px;
+        width: 354px;
         height: 268.17px;
         padding: 0 16px;
         margin-top: 50px;
     }
-
 
 
     .players-list {
@@ -257,6 +257,7 @@ main{
         margin-bottom: 60px;
     }
 
+
     .footer-area {
         width: 100%;
         margin-top: -36px;
@@ -264,7 +265,6 @@ main{
     .footer-image img {
         width: 95%;
     }
-
 
 
     .learn-more-area{
@@ -298,8 +298,9 @@ main{
     .sponsor{
         grid-template-columns: repeat(1, 1fr);
     }
-    .container{
+    .container {
         width: 100%;
+        margin-top: -58px;
     }
     .sponsor-image {
         margin-bottom: 25px;
@@ -308,6 +309,7 @@ main{
     .our-sponsors h1 {
         text-align: center;
     }
+
 }
 
 
